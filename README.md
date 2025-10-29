@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🌤️ Weather Now
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Weather Now** is a clean, fast React app that lets you instantly check the current weather in any city — designed for *Jamie*, an outdoor enthusiast who loves quick and simple tools for planning adventures.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+👉 [https://weather-now-keerthana.netlify.app/](https://weather-now-keerthana.netlify.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧰 Tech Stack
+- ⚛️ **React**
+- 🎨 **CSS**
+- 🌍 **Open-Meteo API** (for real-time weather data)
+- 🌐 **Netlify** (for hosting & deployment)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧩 Features
+✅ Search for any city and get instant weather results  
+✅ Displays temperature, condition, and other key details  
+✅ Clear and minimal design with a friendly mascot  
+✅ Responsive layout (mobile & desktop)  
+✅ Error handling for invalid or unknown cities  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ How to Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/weather-now.git
+   ```
+2. **Navigate to the project folder**
+   ```bash
+   cd weather-now
+   ```
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+4. **Run the app locally**
+   ```bash
+   npm start
+   ```
+5. Open your browser at [http://localhost:3000](http://localhost:3000)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌍 API
+This project uses the free [Open-Meteo API](https://open-meteo.com/) for geocoding and weather data.  
+No API key required!
 
-### `npm run eject`
+Example endpoints:
+- `https://geocoding-api.open-meteo.com/v1/search?name=London`
+- `https://api.open-meteo.com/v1/forecast?latitude=51.5&longitude=-0.1&current_weather=true`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Deployment
+Deployed using [Netlify](https://www.netlify.com/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Steps used:**
+1. Build the project → `npm run build`
+2. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
+3. Drag and drop the `/build` folder
+4. Done 🎉 Your app is live at [weather-now-keerthana.netlify.app](https://weather-now-keerthana.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧑‍💻 Author
+**Keerthana**  
+Built with ❤️ and curiosity for the outdoors.  
+Check it out live → [https://weather-now-keerthana.netlify.app/](https://weather-now-keerthana.netlify.app/)
